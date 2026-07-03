@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run generate:pages && next build",
+    "build": "npm run generate:pages && next build && npm run copy:pages",
     "start": "next start",
     "lint": "eslint",
-    "generate:pages": "node scripts/generate-static-pages.js"
+    "generate:pages": "node scripts/generate-static-pages.js",
+    "copy:pages": "node scripts/copy-static-pages.js"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
