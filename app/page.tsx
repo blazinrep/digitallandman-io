@@ -138,14 +138,11 @@ export default function Home() {
               Get Started
             </h2>
             <div className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs">
-              <iframe 
-                src="/lead-form.html" 
-                className="w-full border-0" 
-                style={{ minHeight: '600px' }}
-                title="Lead Intake Form"
-              />
+              <div id="mlb2-43377681" className="ml-form-embed" data-account="2342326" data-form="192073939365659967"></div>
             </div>
           </section>
+
+          <script src="https://assets.mailerlite.com/js/w/w.min.js?v=4" async></script>
 
           {/* FAQ Block */}
           <section aria-labelledby="faq-heading" className="mb-16 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs">
