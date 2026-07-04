@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import LeadIntakeForm from '@/components/lead-intake-form';
 
 export const metadata: Metadata = {
   title: 'Digital Landman Network | Texas Rural Real Estate Marketplace',
@@ -130,6 +131,14 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </section>
+
+          {/* Lead Intake Form */}
+          <section aria-labelledby="form-heading" className="mb-16">
+            <h2 id="form-heading" className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6 text-center">
+              Get Started
+            </h2>
+            <LeadIntakeForm />
           </section>
 
           {/* FAQ Block */}
