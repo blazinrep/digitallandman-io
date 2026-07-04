@@ -96,6 +96,42 @@ export default function Home() {
             </div>
           </section>
 
+          {/* County Services Directory */}
+          <section aria-labelledby="services-heading" className="mb-16">
+            <h2 id="services-heading" className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6 text-center">
+              County Services Directory
+            </h2>
+
+            <div className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs">
+              <p className="text-slate-600 text-sm mb-6 text-center">
+                Find vetted independent land professionals by county
+              </p>
+
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <a href="/services/tx/travis" className="block p-4 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50 transition-colors">
+                  <h3 className="font-semibold text-slate-800">Travis County</h3>
+                  <p className="text-xs text-slate-500 mt-1">Austin area</p>
+                </a>
+                <a href="/services/tx/williamson" className="block p-4 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50 transition-colors">
+                  <h3 className="font-semibold text-slate-800">Williamson County</h3>
+                  <p className="text-xs text-slate-500 mt-1">Georgetown area</p>
+                </a>
+                <a href="/services/tx/hays" className="block p-4 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50 transition-colors">
+                  <h3 className="font-semibold text-slate-800">Hays County</h3>
+                  <p className="text-xs text-slate-500 mt-1">San Marcos area</p>
+                </a>
+                <a href="/services/tx/dallas" className="block p-4 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50 transition-colors">
+                  <h3 className="font-semibold text-slate-800">Dallas County</h3>
+                  <p className="text-xs text-slate-500 mt-1">Dallas area</p>
+                </a>
+                <a href="/services/tx/bexar" className="block p-4 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50 transition-colors">
+                  <h3 className="font-semibold text-slate-800">Bexar County</h3>
+                  <p className="text-xs text-slate-500 mt-1">San Antonio area</p>
+                </a>
+              </div>
+            </div>
+          </section>
+
           {/* FAQ Block */}
           <section aria-labelledby="faq-heading" className="mb-16 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs">
             <h2 id="faq-heading" className="text-xl font-bold text-slate-800 mb-6">Frequently Asked Questions</h2>
