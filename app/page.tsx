@@ -137,12 +137,22 @@ export default function Home() {
             <h2 id="form-heading" className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6 text-center">
               Get Started
             </h2>
-            <div className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs">
-              <div id="mlb2-43377681" className="ml-form-embed" data-account="2342326" data-form="192073939365659967"></div>
+            <div className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs text-center">
+              <h2 className="text-xl font-bold text-slate-900 mb-2">Submit Your Project</h2>
+              <p className="text-slate-600 text-sm mb-6">
+                Connect with vetted land professionals for your rural property project
+              </p>
+              <a 
+                href="/lead-form.html" 
+                className="inline-block bg-slate-900 text-white py-3 px-8 rounded-lg font-medium hover:bg-slate-800 transition-colors"
+              >
+                Open Lead Intake Form
+              </a>
+              <p className="text-xs text-slate-500 mt-4">
+                Click to open the form in a new page
+              </p>
             </div>
           </section>
-
-          <script src="https://assets.mailerlite.com/js/w/w.min.js?v=4" async></script>
 
           {/* FAQ Block */}
           <section aria-labelledby="faq-heading" className="mb-16 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/60 shadow-xs">
